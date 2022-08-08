@@ -6,6 +6,15 @@ authors = ["Samson AKUMANI <samsakumani@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+fastapi = "^0.79.0"
+uvicorn = "^0.18.2"
+SQLAlchemy = { version = "^1.4.39", extras = ["asyncio"] }
+pydantic = {extras = ["all"], version = "^1.9.1"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+PyJWT = "^2.4.0"
+alembic = "^1.8.1"
+asyncpg = "^0.26.0"
+databases = "^0.6.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
